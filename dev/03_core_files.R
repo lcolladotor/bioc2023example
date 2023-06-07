@@ -75,7 +75,7 @@ pkg <- basename(usethis::proj_get())
 biocthis::use_bioc_vignette(pkg, paste("Introduction to", pkg))
 
 ## Add a Bioconductor-friendly GitHub actions workflow to check your package
-biocthis::use_bioc_github_action()
+biocthis::use_bioc_github_action(docker = TRUE)
 ## You will need to go to https://github.com//settings/actions
 ## to and enable:
 ## > Workflow permissions > Read and write permissions
