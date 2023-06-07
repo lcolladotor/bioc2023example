@@ -74,7 +74,7 @@ R. Please run this yourself to check for any updates on how to cite
 **bioc2023example**.
 
 ``` r
-print(citation('bioc2023example'), bibtex = TRUE)
+print(citation("bioc2023example"), bibtex = TRUE)
 #> To cite package 'bioc2023example' in publications use:
 #> 
 #>   lcolladotor (2023). _BioC2023 package live demo_.

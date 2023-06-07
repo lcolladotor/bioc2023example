@@ -70,7 +70,7 @@ Below is the citation output from using `citation('bioc2023example')` in R. Plea
 run this yourself to check for any updates on how to cite __bioc2023example__.
 
 ```{r 'citation', eval = requireNamespace('bioc2023example')}
-print(citation('bioc2023example'), bibtex = TRUE)
+print(citation("bioc2023example"), bibtex = TRUE)
 ```
 
 Please note that the `bioc2023example` was only made possible thanks to many other R and bioinformatics software authors, which are cited either in the vignettes and/or the paper(s) describing this package.
