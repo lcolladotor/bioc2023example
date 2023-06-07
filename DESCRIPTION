@@ -1,12 +1,22 @@
 Package: bioc2023example
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Example BioC2023 workshop package
+Version: 0.99.0
+Date: 2023-06-07
 Authors@R: 
     person("Leonardo", "Collado-Torres", , "lcolladotor@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-2140-308X"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: This is a live demo example on how to make a new R package
+    for BioC2023. We are using biocthis.
+License: Artistic-2.0
+URL: https://github.com/lcolladotor/bioc2023example
+BugReports: https://support.bioconductor.org/tag/bioc2023example
+biocViews: Software
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Suggests: 
+    BiocStyle,
+    knitr,
+    RefManageR,
+    sessioninfo,
+    testthat
